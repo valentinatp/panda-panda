@@ -1,1 +1,97 @@
-main.css
+body {
+	margin: 0px;
+	background-color: #1d1a05;
+}
+header {
+	background-color: #ca3c25;
+	margin: 0px;
+}
+
+#arriba a {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 20px;
+	display: inline-block;
+	margin: 0px auto;
+	width: 202px;
+	padding: 20px;
+	text-align: center;
+}
+.contenedor-enlaces{
+	background-color: #ca3c25;
+	margin: 20px;
+}
+
+.contenedor-enlaces a {
+	display: inline-block;
+	background-color: #ca3c25;
+	text-align: center;
+	font-size: 20px;
+	padding: 20px;
+	width: 27%;
+	text-decoration: none;
+	color: white;
+}
+
+.contenedor-imagenes {
+	width: 100%
+	margin: 30px;
+}
+
+.contenedor-imagenes a {
+	text-decoration: none;
+	color: white;
+	background-color: black;
+}
+
+.contenedor-imagenes #panda {
+	background-image: url("../img/panda.jpg");
+	width: 30%;
+	height: 375px;
+	margin: 10px;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.contenedor-imagenes #panda1 {
+	background-image: url("../img/panda-2.jpg");
+	width: 30%;
+	height: 375px;
+	margin: 10px;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.contenedor-imagenes #panda2 {
+	background-image: url("../img/panda-3.jpg");
+	width: 30%;
+	height: 375px;
+	margin: 10px;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.foto.no{
+	visibility: hidden;
+}
+
+#parrafo1 {
+	display: justify;
+	font-size: 25px;
+	color: white;
+	float: left;;
+	width: 584px;
+	padding: 20px;
+}
+
+#parrafo2 {
+	display: justify;
+	font-size: 25px;
+	color: white;
+	float: right;
+	width: 584px;
+	padding: 20px;
+}
